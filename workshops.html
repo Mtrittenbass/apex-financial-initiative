@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workshops | Apex Financial Initiative</title>
+<meta name="description" content="Free financial literacy workshops for teens from Apex Financial Initiative in Bellevue, WA.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Apex Financial Initiative home">
+      <svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 2 L98 90 L80 90 L50 36 L20 90 L2 90 Z" fill="currentColor"/><path d="M50 56 L65 84 L35 84 Z" fill="#5d7792"/></svg>
+      <span class="brand-text"><span class="brand-name">APEX</span><span class="brand-sub">Financial Initiative</span></span>
+    </a>
+    <nav aria-label="Main">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="workshops.html" aria-current="page">Workshops</a></li>
+        <li><a href="curriculum.html">Curriculum</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="outreach.html">Outreach</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+    <div class="wrap">
+      <h1>Workshops</h1>
+      <p>Our workshops are free, interactive sessions for teens, taught by students like us. We cover the money basics school often skips, including budgeting, saving, credit, debt, and investing, and we bring them to schools and community organizations. You don&rsquo;t need a big group. We&rsquo;re just as happy to work with a handful of students as a full classroom.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 class="section-title">How It Works</h2>
+      <div class="ruled cols-3">
+        <div><span class="num">01</span><h3>Request a workshop</h3><p>Tell us about your group using the form below: who they are, how many students, and what you&rsquo;d like covered. Any group size works, from a handful of students to a full class.</p></div>
+        <div><span class="num">02</span><h3>We tailor the session</h3><p>We pick topics from our curriculum that fit your students&rsquo; age and interests, and can invite a finance professional to join.</p></div>
+        <div><span class="num">03</span><h3>Students learn by doing</h3><p>Our team leads an interactive session with real examples and clear next steps students can act on right away.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint" id="request">
+    <div class="wrap split top">
+      <div>
+        <h2>Request a Workshop</h2>
+        <p>Workshops are always free. Fill out the form and we&rsquo;ll follow up to plan a session that fits your schedule and your students.</p>
+        <ul class="details on-light">
+          <li><span class="k">Cost</span><span>Free</span></li>
+          <li><span class="k">Group size</span><span>Any size. Small groups are welcome.</span></li>
+          <li><span class="k">Format</span><span>Tailored to your students</span></li>
+        </ul>
+        <div class="mt-2 request-photo"><img class="photo" src="images/workshop-small-group.jpg" alt="An Apex student leading a workshop for a small group of teens" loading="lazy"></div>
+      </div>
+      <div class="form-box">
+        <form id="workshop-form" data-thanks novalidate>
+          <h3>Workshop request</h3>
+          <div class="form-grid">
+            <div class="field">
+              <label for="w-name">Your name <span class="req">*</span></label>
+              <input id="w-name" name="w-name" type="text" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="w-email">Email <span class="req">*</span></label>
+              <input id="w-email" name="w-email" type="email" required autocomplete="email">
+            </div>
+            <div class="field full">
+              <label for="w-org">School or organization <span class="req">*</span></label>
+              <input id="w-org" name="w-org" type="text" required autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="w-role">Your role <span class="req">*</span></label>
+              <select id="w-role" name="w-role" required><option value="">Select</option><option>Teacher</option><option>Counselor or school staff</option><option>Student</option><option>Parent or guardian</option><option>Community organization</option><option>Other</option></select>
+            </div>
+            <div class="field">
+              <label for="w-size">Estimated group size</label>
+              <input id="w-size" name="w-size" type="number" min="1">
+            </div>
+            <div class="field">
+              <label for="w-grades">Grade level(s)</label>
+              <input id="w-grades" name="w-grades" type="text">
+            </div>
+            <div class="field">
+              <label for="w-date">Preferred date</label>
+              <input id="w-date" name="w-date" type="date">
+            </div>
+            <div class="field full">
+              <label for="w-topics">Topics or questions</label>
+              <textarea id="w-topics" name="w-topics"></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-solid" type="submit">Submit request <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></button>
+            <p class="form-note"><span class="req">*</span> Required</p>
+          </div>
+        </form>
+        <div class="thanks" role="status" aria-live="polite">
+          <h3>Thank you.</h3>
+          <p>Your workshop request has been received. We’ll be in touch soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="Apex Financial Initiative home"><svg viewBox="0 0 100 92" aria-hidden="true"><path d="M50 2 L98 90 L80 90 L50 36 L20 90 L2 90 Z" fill="currentColor"/><path d="M50 56 L65 84 L35 84 Z" fill="#5d7792"/></svg><span class="brand-text"><span class="brand-name">APEX</span><span class="brand-sub">Financial Initiative</span></span></a>
+        <p>A student-led nonprofit in Bellevue, WA running free financial literacy workshops for teens.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="workshops.html">Workshops</a></li>
+          <li><a href="curriculum.html">Curriculum</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="outreach.html">Outreach</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:apexfinancialinitiative@gmail.com">apexfinancialinitiative@gmail.com</a></li>
+          <li>[SOCIAL MEDIA HANDLE]</li>
+          <li>Bellevue, WA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Apex Financial Initiative</span>
+      <span>[NONPROFIT STATUS / EIN]</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
